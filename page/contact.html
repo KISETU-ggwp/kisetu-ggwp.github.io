@@ -4,57 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio - Contact</title>
-  <meta name="description" content="船山滉介への連絡先を掲載したコンタクトページです。">
+  <title data-i18n="title.contact">船山 滉介 | 連絡先</title>
+  <meta name="description" content="船山滉介への連絡先を掲載したコンタクトページです。" data-i18n-content="meta.contact">
   <link rel="canonical" href="https://kisetu-ggwp.github.io/portfolio/page/contact.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="Kosuke Funayama Portfolio">
-  <meta property="og:title" content="Kosuke Funayama | Contact">
-  <meta property="og:description" content="船山滉介への連絡先を掲載したコンタクトページです。">
+  <meta property="og:title" content="船山 滉介 | 連絡先" data-i18n-content="title.contact">
+  <meta property="og:description" content="船山滉介への連絡先を掲載したコンタクトページです。" data-i18n-content="meta.contact">
   <meta property="og:url" content="https://kisetu-ggwp.github.io/portfolio/page/contact.html">
   <meta property="og:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="800">
-  <meta property="og:image:alt" content="船山滉介のプロフィール画像">
+  <meta property="og:image:alt" content="船山滉介のプロフィール画像" data-i18n-content="profile.image">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kosuke Funayama | Contact">
-  <meta name="twitter:description" content="船山滉介への連絡先を掲載したコンタクトページです。">
+  <meta name="twitter:title" content="船山 滉介 | 連絡先" data-i18n-content="title.contact">
+  <meta name="twitter:description" content="船山滉介への連絡先を掲載したコンタクトページです。" data-i18n-content="meta.contact">
   <meta name="twitter:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <link rel="stylesheet" href="../css/loader.css">
+  <script src="../js/translations.js"></script>
+  <script src="../js/i18n.js"></script>
 </head>
 
 <body>
-  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <a class="skip-link" href="#main-content"><span data-i18n="common.skip">本文へ移動</span></a>
   <header>
     <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-controls="primary-nav" aria-expanded="false">
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
-      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-toggle-label" data-i18n="common.menu">メニュー</span>
     </button>
     <nav id="primary-nav">
       <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        <li><a href="home.html"><span data-i18n="nav.home">ホーム</span></a></li>
+        <li><a href="introduction.html"><span data-i18n="nav.introduction">自己紹介</span></a></li>
+        <li><a href="works.html"><span data-i18n="nav.works">研究・制作</span></a></li>
+        <li><a href="skills.html"><span data-i18n="nav.skills">スキル</span></a></li>
+        <li><a href="contact.html" class="active" aria-current="page"><span data-i18n="nav.contact">連絡先</span></a></li>
       </ul>
     </nav>
+    <div class="language-switch" role="group" aria-label="表示言語" data-i18n-aria-label="common.language">
+      <span class="language-switch-indicator" aria-hidden="true"></span>
+      <button type="button" data-language="ja" lang="ja" aria-label="日本語" aria-pressed="true">JA</button>
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+    </div>
   </header>
   <main id="main-content">
     <div class="card">
-      <h2>メール / Email</h2>
+      <h2><span data-i18n="heading.Email">メール</span></h2>
       <p class="talk">contact[at]kofuna.com</p>
       <p class="talk">a253104[at]a.tsukuba-tech.ac.jp</p>
-      <p class="talk">[at]を"@"に置き換えていただければ幸いです。</p>
-      <h2>電話 / Phone</h2>
-      <p class="talk">耳が聞こえにくいため，電話対応不可．
-        <br>SMSにつきましてはお受け致します.</p>
+      <p class="talk"><span data-i18n="contact.at">[at]を&quot;@&quot;に置き換えていただければ幸いです。</span></p>
+      <h2><span data-i18n="heading.Phone">電話</span></h2>
+      <p class="talk"><span data-i18n="contact.phone">耳が聞こえにくいため，電話対応不可．</span> <br><span data-i18n="contact.sms">SMSにつきましてはお受け致します.</span></p>
 
     </div>
   </main>
+  <script>window.portfolioI18n.init();</script>
   <script src="../js/script.js"></script>
 </body>
 

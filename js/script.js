@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
       menuToggle.classList.toggle('active', isOpen);
       nav.classList.toggle('active', isOpen);
       menuToggle.setAttribute('aria-expanded', String(isOpen));
-      menuToggle.setAttribute('aria-label', isOpen ? 'メニューを閉じる' : 'メニューを開く');
+      window.portfolioI18n.syncMenuLabel();
     };
 
     menuToggle.addEventListener('click', function() {

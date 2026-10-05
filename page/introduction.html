@@ -4,93 +4,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio - Introduction</title>
-  <meta name="description" content="船山滉介の所属、学歴、研究テーマ、登壇情報をまとめた紹介ページです。">
+  <title data-i18n="title.introduction">船山 滉介 | 自己紹介</title>
+  <meta name="description" content="船山滉介の所属、学歴、研究テーマ、登壇情報をまとめた紹介ページです。" data-i18n-content="meta.introduction">
   <link rel="canonical" href="https://kisetu-ggwp.github.io/portfolio/page/introduction.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="Kosuke Funayama Portfolio">
-  <meta property="og:title" content="Kosuke Funayama | Introduction">
-  <meta property="og:description" content="船山滉介の所属、学歴、研究テーマ、登壇情報をまとめた紹介ページです。">
+  <meta property="og:title" content="船山 滉介 | 自己紹介" data-i18n-content="title.introduction">
+  <meta property="og:description" content="船山滉介の所属、学歴、研究テーマ、登壇情報をまとめた紹介ページです。" data-i18n-content="meta.introduction">
   <meta property="og:url" content="https://kisetu-ggwp.github.io/portfolio/page/introduction.html">
   <meta property="og:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="800">
-  <meta property="og:image:alt" content="船山滉介のプロフィール画像">
+  <meta property="og:image:alt" content="船山滉介のプロフィール画像" data-i18n-content="profile.image">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kosuke Funayama | Introduction">
-  <meta name="twitter:description" content="船山滉介の所属、学歴、研究テーマ、登壇情報をまとめた紹介ページです。">
+  <meta name="twitter:title" content="船山 滉介 | 自己紹介" data-i18n-content="title.introduction">
+  <meta name="twitter:description" content="船山滉介の所属、学歴、研究テーマ、登壇情報をまとめた紹介ページです。" data-i18n-content="meta.introduction">
   <meta name="twitter:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <link rel="stylesheet" href="../css/loader.css">
+  <script src="../js/translations.js"></script>
+  <script src="../js/i18n.js"></script>
 </head>
 
 <body>
-  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <a class="skip-link" href="#main-content"><span data-i18n="common.skip">本文へ移動</span></a>
   <header>
     <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-controls="primary-nav" aria-expanded="false">
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
-      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-toggle-label" data-i18n="common.menu">メニュー</span>
     </button>
     <nav id="primary-nav">
       <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="introduction.html" class="active" aria-current="page">Introduction</a></li>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="home.html"><span data-i18n="nav.home">ホーム</span></a></li>
+        <li><a href="introduction.html" class="active" aria-current="page"><span data-i18n="nav.introduction">自己紹介</span></a></li>
+        <li><a href="works.html"><span data-i18n="nav.works">研究・制作</span></a></li>
+        <li><a href="skills.html"><span data-i18n="nav.skills">スキル</span></a></li>
+        <li><a href="contact.html"><span data-i18n="nav.contact">連絡先</span></a></li>
       </ul>
     </nav>
+    <div class="language-switch" role="group" aria-label="表示言語" data-i18n-aria-label="common.language">
+      <span class="language-switch-indicator" aria-hidden="true"></span>
+      <button type="button" data-language="ja" lang="ja" aria-label="日本語" aria-pressed="true">JA</button>
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+    </div>
   </header>
   <main id="main-content">
     <div class="card">
-      <h2>所属 / Department</h2>
-      <p class="talk">筑波技術大学院 技術科学研究科
-        <br>産業技術学専攻 修士課程
-      </p>
-      <h2>学位 / Degree</h2>
+      <h2><span data-i18n="heading.Department">所属</span></h2>
+      <p class="talk"><span data-i18n="intro.school">筑波技術大学院 技術科学研究科</span> <br><span data-i18n="intro.program">産業技術学専攻 修士課程</span> </p>
+      <h2><span data-i18n="heading.Degree">学位</span></h2>
       <div class="meta-list">
-        <p class="meta-item">学士（工学）, 筑波技術大学</p>
+        <p class="meta-item"><span data-i18n="intro.degree">学士（工学）, 筑波技術大学</span></p>
       </div>
-      <h2>学歴 / Education</h2>
+      <h2><span data-i18n="heading.Education">学歴</span></h2>
       <div class="meta-list">
-        <p class="meta-item">2025年4月 - 現在: 筑波技術大学大学院 技術科学研究科 産業技術学専攻 修士課程</p>
-        <p class="meta-item">2021年4月 - 2025年3月: 筑波技術大学 産業技術学部 産業情報学科</p>
-        <p class="meta-item">北海道高等ろう学校 普通科 卒業</p>
+        <p class="meta-item"><span data-i18n="intro.masters">2025年4月 - 現在: 筑波技術大学大学院 技術科学研究科 産業技術学専攻 修士課程</span></p>
+        <p class="meta-item"><span data-i18n="intro.bachelors">2021年4月 - 2025年3月: 筑波技術大学 産業技術学部 産業情報学科</span></p>
+        <p class="meta-item"><span data-i18n="intro.highschool">北海道高等ろう学校 普通科 卒業</span></p>
       </div>
-      <h2>現在の役割 / Current Role</h2>
+      <h2><span data-i18n="heading.CurrentRole">現在の役割</span></h2>
       <div class="meta-list">
-        <p class="meta-item">2026年1月 - 現在: 筑波技術大学 リサーチ・アシスタント</p>
+        <p class="meta-item"><span data-i18n="intro.role">2026年1月 - 現在: 筑波技術大学 リサーチ・アシスタント</span></p>
       </div>
-      <h2>研究分野 / Research Fields</h2>
+      <h2><span data-i18n="heading.ResearchFields">研究分野</span></h2>
       <div class="meta-list">
-        <p class="meta-item">知能情報学</p>
-        <p class="meta-item">ヒューマンインタフェース・インタラクション</p>
+        <p class="meta-item"><span data-i18n="research.intelligent">知能情報学</span></p>
+        <p class="meta-item"><span data-i18n="research.hci">ヒューマンインタフェース・インタラクション</span></p>
       </div>
-      <h2>研究概要 / Research</h2>
-      <p class="summary">
-        アクセシビリティ、人工知能、拡張現実、支援技術を主なキーワードとして、
-        ろう・難聴者の情報保障とコミュニケーション支援に関する研究開発を進めています。
-        字幕提示の空間パーソナライズ、日本手話動画データセットの再分類と段階的アノテーション、
-        機械学習を用いた指文字認識など、研究と実装の両面から取り組んでいます。
-      </p>
-      <h2>主要研究テーマ / Selected Research Topics</h2>
+      <h2><span data-i18n="heading.Research">研究概要</span></h2>
+      <p class="summary"> <span data-i18n="intro.summary">アクセシビリティ、人工知能、拡張現実、支援技術を主なキーワードとして、 ろう・難聴者の情報保障とコミュニケーション支援に関する研究開発を進めています。 字幕提示の空間パーソナライズ、日本手話動画データセットの再分類と段階的アノテーション、 機械学習を用いた指文字認識など、研究と実装の両面から取り組んでいます。</span> </p>
+      <h2><span data-i18n="heading.SelectedResearchTopics">主要研究テーマ</span></h2>
       <div class="achievement-list">
-        <p class="achievement-item">ARグラスを用いたろう・難聴者向け字幕提示方法の探索的研究: 字幕位置の影響に着目して <span class="sub">（IPSJ SIG AAC 第25回 学生奨励賞）</span></p>
-        <p class="achievement-item">YouTube-SL-25における日本手話動画の再分類と段階的アノテーションの必要性 <span class="sub">（FIT2025 奨励賞）</span></p>
-        <p class="achievement-item">An Exploratory Study on Spatial Personalization in AR Caption Design for Deaf and Hard of Hearing <span class="sub">（IEEE SMC 2025 査読付国際会議）</span></p>
+        <p class="achievement-item"><span data-i18n="research.arCaptions">ARグラスを用いたろう・難聴者向け字幕提示方法の探索的研究: 字幕位置の影響に着目して</span> <span class="sub"><span data-i18n="research.ipsjNote">（IPSJ SIG AAC 第25回 学生奨励賞）</span></span></p>
+        <p class="achievement-item"><span data-i18n="research.signDataset">YouTube-SL-25における日本手話動画の再分類と段階的アノテーションの必要性</span> <span class="sub"><span data-i18n="research.fitNote">（FIT2025 奨励賞）</span></span></p>
+        <p class="achievement-item">An Exploratory Study on Spatial Personalization in AR Caption Design for Deaf and Hard of Hearing <span class="sub"><span data-i18n="research.smcNote">（IEEE SMC 2025 査読付国際会議）</span></span></p>
       </div>
 
-      <h2>登壇 / Speaking</h2>
-      <p class="section-note">以下の外部リンクは新しいタブで開きます。</p>
+      <h2><span data-i18n="heading.Speaking">登壇</span></h2>
+      <p class="section-note"><span data-i18n="common.externalBelow">以下の外部リンクは新しいタブで開きます。</span></p>
       <div class="link-container">
         <a href="https://confengine.com/conferences/agile-pbl-2024/proposal/19572/enpit-fish" target="_blank"
           class="custom-link">
           <div class="link-content">
             <div class="link-info">
-              <h4>Agile PBL祭り2024</h4> <!-- リンクのタイトル -->
-              <p>当事者が当事者開発を行うことの強み</p> <!-- リンクの説明 -->
+              <h4><span data-i18n="speaking.agile">Agile PBL祭り2024</span></h4> <!-- リンクのタイトル -->
+              <p><span data-i18n="speaking.title">当事者が当事者開発を行うことの強み</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
@@ -101,8 +101,8 @@
           class="custom-link">
           <div class="link-content">
             <div class="link-info">
-              <h4>スクラムフェス仙台2024</h4> <!-- リンクのタイトル -->
-              <p>当事者が当事者開発を行うことの強み</p> <!-- リンクの説明 -->
+              <h4><span data-i18n="speaking.scrum">スクラムフェス仙台2024</span></h4> <!-- リンクのタイトル -->
+              <p><span data-i18n="speaking.title">当事者が当事者開発を行うことの強み</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
@@ -110,6 +110,7 @@
 
     </div>
   </main>
+  <script>window.portfolioI18n.init();</script>
   <script src="../js/script.js"></script>
 </body>
 

@@ -4,57 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio - Works</title>
-  <meta name="description" content="船山滉介の研究業績、Webアプリ、ARグラス関連、AI関連の制作物をまとめたページです。">
+  <title data-i18n="title.works">船山 滉介 | 研究・制作</title>
+  <meta name="description" content="船山滉介の研究業績、Webアプリ、ARグラス関連、AI関連の制作物をまとめたページです。" data-i18n-content="meta.works">
   <link rel="canonical" href="https://kisetu-ggwp.github.io/portfolio/page/works.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="Kosuke Funayama Portfolio">
-  <meta property="og:title" content="Kosuke Funayama | Works">
-  <meta property="og:description" content="船山滉介の研究業績、Webアプリ、ARグラス関連、AI関連の制作物をまとめたページです。">
+  <meta property="og:title" content="船山 滉介 | 研究・制作" data-i18n-content="title.works">
+  <meta property="og:description" content="船山滉介の研究業績、Webアプリ、ARグラス関連、AI関連の制作物をまとめたページです。" data-i18n-content="meta.works">
   <meta property="og:url" content="https://kisetu-ggwp.github.io/portfolio/page/works.html">
   <meta property="og:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="800">
-  <meta property="og:image:alt" content="船山滉介のプロフィール画像">
+  <meta property="og:image:alt" content="船山滉介のプロフィール画像" data-i18n-content="profile.image">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kosuke Funayama | Works">
-  <meta name="twitter:description" content="船山滉介の研究業績、Webアプリ、ARグラス関連、AI関連の制作物をまとめたページです。">
+  <meta name="twitter:title" content="船山 滉介 | 研究・制作" data-i18n-content="title.works">
+  <meta name="twitter:description" content="船山滉介の研究業績、Webアプリ、ARグラス関連、AI関連の制作物をまとめたページです。" data-i18n-content="meta.works">
   <meta name="twitter:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <link rel="stylesheet" href="../css/loader.css">
 
+  <script src="../js/translations.js"></script>
+  <script src="../js/i18n.js"></script>
 </head>
 
 <body>
-  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <a class="skip-link" href="#main-content"><span data-i18n="common.skip">本文へ移動</span></a>
   <header>
     <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-controls="primary-nav" aria-expanded="false">
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
-      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-toggle-label" data-i18n="common.menu">メニュー</span>
     </button>
     <nav id="primary-nav">
       <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="works.html" class="active" aria-current="page">Works</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="home.html"><span data-i18n="nav.home">ホーム</span></a></li>
+        <li><a href="introduction.html"><span data-i18n="nav.introduction">自己紹介</span></a></li>
+        <li><a href="works.html" class="active" aria-current="page"><span data-i18n="nav.works">研究・制作</span></a></li>
+        <li><a href="skills.html"><span data-i18n="nav.skills">スキル</span></a></li>
+        <li><a href="contact.html"><span data-i18n="nav.contact">連絡先</span></a></li>
       </ul>
     </nav>
+    <div class="language-switch" role="group" aria-label="表示言語" data-i18n-aria-label="common.language">
+      <span class="language-switch-indicator" aria-hidden="true"></span>
+      <button type="button" data-language="ja" lang="ja" aria-label="日本語" aria-pressed="true">JA</button>
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+    </div>
   </header>
 
   <main id="main-content">
     <div class="card">
-      <p class="page-note">このページの研究業績リンクと制作物リンクは新しいタブで開きます。</p>
-      <h2>研究業績 / Research Publications and Presentations</h2>
+      <p class="page-note"><span data-i18n="works.external">このページの研究業績リンクと制作物リンクは新しいタブで開きます。</span></p>
+      <h2><span data-i18n="heading.ResearchPublicationsandPresentations">研究業績</span></h2>
       <div class="link-container">
         <a href="https://jglobal.jst.go.jp/public/202501021041919892" target="_blank" rel="noopener noreferrer" class="custom-link">
           <div class="link-content">
             <div class="link-info">
               <h4>An Exploratory Study on Spatial Personalization in AR Caption Design for Deaf and Hard of Hearing</h4>
-              <p>2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2025年</p>
+              <p><span data-i18n="research.smcDate">2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2025年</span></p>
             </div>
           </div>
         </a>
@@ -64,8 +71,8 @@
         <a href="https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502270023458006" target="_blank" rel="noopener noreferrer" class="custom-link">
           <div class="link-content">
             <div class="link-info">
-              <h4>YouTube-SL-25における日本手話動画の再分類と段階的アノテーションの必要性</h4>
-              <p>第24回情報科学技術フォーラム講演論文集, 2025年</p>
+              <h4><span data-i18n="research.signDataset">YouTube-SL-25における日本手話動画の再分類と段階的アノテーションの必要性</span></h4>
+              <p><span data-i18n="research.fitDate">第24回情報科学技術フォーラム講演論文集, 2025年</span></p>
             </div>
           </div>
         </a>
@@ -75,8 +82,8 @@
         <a href="https://ipsj.ixsq.nii.ac.jp/records/2001036" target="_blank" rel="noopener noreferrer" class="custom-link">
           <div class="link-content">
             <div class="link-info">
-              <h4>マイクアレイ音源位置推定型音声認識システムを用いたろう・難聴者と聴者のコミュニケーション支援の評価</h4>
-              <p>情報処理学会アクセシビリティ研究会 第27回研究会, 2025年3月</p>
+              <h4><span data-i18n="research.microphone">マイクアレイ音源位置推定型音声認識システムを用いたろう・難聴者と聴者のコミュニケーション支援の評価</span></h4>
+              <p><span data-i18n="research.aac27">情報処理学会アクセシビリティ研究会 第27回研究会, 2025年3月</span></p>
             </div>
           </div>
         </a>
@@ -86,14 +93,14 @@
         <a href="https://jglobal.jst.go.jp/public/202501021041919892" target="_blank" rel="noopener noreferrer" class="custom-link">
           <div class="link-content">
             <div class="link-info">
-              <h4>ARグラスを用いたろう・難聴者向け字幕提示方法の探索的研究: 字幕位置の影響に着目して</h4>
-              <p>情報処理学会アクセシビリティ研究会 第25回研究会, 2024年7月</p>
+              <h4><span data-i18n="research.arCaptions">ARグラスを用いたろう・難聴者向け字幕提示方法の探索的研究: 字幕位置の影響に着目して</span></h4>
+              <p><span data-i18n="research.aac25">情報処理学会アクセシビリティ研究会 第25回研究会, 2024年7月</span></p>
             </div>
           </div>
         </a>
       </div>
 
-      <h2>Webアプリケーション / Web Applications</h2>
+      <h2><span data-i18n="heading.WebApplications">Webアプリケーション</span></h2>
       <div class="link-container">
         <a href="https://github.com/KISETU-ggwp/Sekoe" target="_blank" class="custom-link">
           <div class="link-content">
@@ -101,7 +108,7 @@
             <!-- GitHubのアイコン -->
             <div class="link-info">
               <h4>Sekoe on GitHub</h4> <!-- リンクのタイトル -->
-              <p>発話が難しいろう・難聴者向けのコミュニケーションサポート</p> <!-- リンクの説明 -->
+              <p><span data-i18n="works.sekoe">発話が難しいろう・難聴者向けのコミュニケーションサポート</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
@@ -113,8 +120,8 @@
             <img src="../image/github.svg" alt="GitHub" class="social-icon">
             <!-- GitHubのアイコン -->
             <div class="link-info">
-              <h4>指文字認識 on GitHub</h4> <!-- リンクのタイトル -->
-              <p>指文字認識のプロトタイプ</p> <!-- リンクの説明 -->
+              <h4><span data-i18n="works.fingerspellTitle">指文字認識 on GitHub</span></h4> <!-- リンクのタイトル -->
+              <p><span data-i18n="works.fingerspell">指文字認識のプロトタイプ</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
@@ -127,13 +134,13 @@
             <!-- GitHubのアイコン -->
             <div class="link-info">
               <h4>JFingerspell-Capture on GitHub</h4> <!-- リンクのタイトル -->
-              <p>指文字のデータ収集Kit</p> <!-- リンクの説明 -->
+              <p><span data-i18n="works.capture">指文字のデータ収集Kit</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
       </div>
 
-      <h2>Xreal(ARグラス)アプリ / Xreal AR Glass Applications</h2>
+      <h2><span data-i18n="heading.XrealARGlassApplications">Xreal(ARグラス)アプリ</span></h2>
       <div class="link-container">
         <a href="https://github.com/KISETU-ggwp/AR_info_glass" target="_blank" class="custom-link">
           <div class="link-content">
@@ -141,13 +148,13 @@
             <!-- GitHubのアイコン -->
             <div class="link-info">
               <h4>Xreal_info_code on GitHub</h4> <!-- リンクのタイトル -->
-              <p>Xrealの開発を対象としたUnity環境における3Dオブジェクト操作を実現するCore-Code</p> <!-- リンクの説明 -->
+              <p><span data-i18n="works.xreal">Xrealの開発を対象としたUnity環境における3Dオブジェクト操作を実現するCore-Code</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
       </div>
 
-      <h2>AI / Artificial Intelligence</h2>
+      <h2><span data-i18n="heading.ai">人工知能</span></h2>
       <div class="link-container">
         <a href="https://github.com/KISETU-ggwp/mediapipe_face_hand_tracker" target="_blank" class="custom-link">
           <div class="link-content">
@@ -155,7 +162,7 @@
             <!-- GitHubのアイコン -->
             <div class="link-info">
               <h4>mediapipe_face_hand_tracker on GitHub</h4> <!-- リンクのタイトル -->
-              <p>動画(mp4)から身体検出(Media-pipe)をして手と顔をcsvとmp4形式で保存する簡易プログラム</p> <!-- リンクの説明 -->
+              <p><span data-i18n="works.mediapipe">動画(mp4)から身体検出(Media-pipe)をして手と顔をcsvとmp4形式で保存する簡易プログラム</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
@@ -168,7 +175,7 @@
             <!-- GitHubのアイコン -->
             <div class="link-info">
               <h4>DL_Base_competition on GitHub</h4> <!-- リンクのタイトル -->
-              <p>松尾・松澤研究室 深層学習_最終課題レポート(VQA)</p> <!-- リンクの説明 -->
+              <p><span data-i18n="works.vqa">松尾・松澤研究室 深層学習_最終課題レポート(VQA)</span></p> <!-- リンクの説明 -->
             </div>
           </div>
         </a>
@@ -177,6 +184,7 @@
     </div>
 
   </main>
+  <script>window.portfolioI18n.init();</script>
   <script src="../js/script.js"></script>
 </body>
 

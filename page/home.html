@@ -4,89 +4,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio - Home</title>
-  <meta name="description" content="船山滉介の研究概要とプロフィールを掲載したポートフォリオのホームページです。">
+  <title data-i18n="title.home">船山 滉介 | ホーム</title>
+  <meta name="description" content="船山滉介の研究概要とプロフィールを掲載したポートフォリオのホームページです。" data-i18n-content="meta.home">
   <link rel="canonical" href="https://kisetu-ggwp.github.io/portfolio/page/home.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:site_name" content="Kosuke Funayama Portfolio">
-  <meta property="og:title" content="Kosuke Funayama | Home">
-  <meta property="og:description" content="船山滉介の研究概要とプロフィールを掲載したポートフォリオのホームページです。">
+  <meta property="og:title" content="船山 滉介 | ホーム" data-i18n-content="title.home">
+  <meta property="og:description" content="船山滉介の研究概要とプロフィールを掲載したポートフォリオのホームページです。" data-i18n-content="meta.home">
   <meta property="og:url" content="https://kisetu-ggwp.github.io/portfolio/page/home.html">
   <meta property="og:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <meta property="og:image:width" content="800">
   <meta property="og:image:height" content="800">
-  <meta property="og:image:alt" content="船山滉介のプロフィール画像">
+  <meta property="og:image:alt" content="船山滉介のプロフィール画像" data-i18n-content="profile.image">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Kosuke Funayama | Home">
-  <meta name="twitter:description" content="船山滉介の研究概要とプロフィールを掲載したポートフォリオのホームページです。">
+  <meta name="twitter:title" content="船山 滉介 | ホーム" data-i18n-content="title.home">
+  <meta name="twitter:description" content="船山滉介の研究概要とプロフィールを掲載したポートフォリオのホームページです。" data-i18n-content="meta.home">
   <meta name="twitter:image" content="https://kisetu-ggwp.github.io/portfolio/image/my_photo.PNG">
   <link rel="stylesheet" href="../css/loader.css">
+  <script src="../js/translations.js"></script>
+  <script src="../js/i18n.js"></script>
 </head>
 
 <body>
-  <a class="skip-link" href="#main-content">本文へ移動</a>
+  <a class="skip-link" href="#main-content"><span data-i18n="common.skip">本文へ移動</span></a>
   <header>
     <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-controls="primary-nav" aria-expanded="false">
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
       <span class="menu-toggle-bar"></span>
-      <span class="menu-toggle-label">Menu</span>
+      <span class="menu-toggle-label" data-i18n="common.menu">メニュー</span>
     </button>
     <nav id="primary-nav">
       <ul>
-        <li><a href="home.html" class="active" aria-current="page">Home</a></li>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="home.html" class="active" aria-current="page"><span data-i18n="nav.home">ホーム</span></a></li>
+        <li><a href="introduction.html"><span data-i18n="nav.introduction">自己紹介</span></a></li>
+        <li><a href="works.html"><span data-i18n="nav.works">研究・制作</span></a></li>
+        <li><a href="skills.html"><span data-i18n="nav.skills">スキル</span></a></li>
+        <li><a href="contact.html"><span data-i18n="nav.contact">連絡先</span></a></li>
       </ul>
     </nav>
+    <div class="language-switch" role="group" aria-label="表示言語" data-i18n-aria-label="common.language">
+      <span class="language-switch-indicator" aria-hidden="true"></span>
+      <button type="button" data-language="ja" lang="ja" aria-label="日本語" aria-pressed="true">JA</button>
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+    </div>
   </header>
 
   <main id="main-content">
     <div class="card">
-      <h1>船山 滉介</h1>
+      <h1><span data-i18n="profile.name">船山 滉介</span></h1>
       <div class="photo-container">
-        <video class="profile-photo profile-video is-loading" muted loop playsinline preload="auto" aria-label="船山滉介のプロフィール動画">
+        <video class="profile-photo profile-video is-loading" muted loop playsinline preload="auto" aria-label="船山滉介のプロフィール動画" data-i18n-aria-label="profile.video">
           <source src="../image/icon_video_canva.mp4" type="video/mp4">
         </video>
       </div>
-      <p class="profile-meta">Kosuke Funayama</p>
-      <p class="profile-meta">筑波技術大学大学院 技術科学研究科 産業技術学専攻 修士課程</p>
-      <p class="profile-meta">筑波技術大学 リサーチ・アシスタント</p>
-      <h2>プロフィール / Profile</h2>
-      <p class="summary">
-      筑波技術大学大学院 技術科学研究科 産業技術学専攻 修士課程に在籍し、
-      知能情報学およびヒューマンインタフェース、インタラクションを基盤として、
-      ARグラスを活用したろう・難聴者向け字幕提示のパーソナライズに関する研究を行っています。
-
-      機械学習を応用した日本語指文字認識システムの開発や、
-      手話研究・教育支援のための動画データセット構築にも取り組み、
-      技術的基盤とユーザー体験の両面から、実社会で活用可能なアクセシビリティ技術の実現を目指しています。
-
-      現在は、研究成果を社会実装へと展開し、人に寄り添う情報提示システムの実証と運用を進めています。
-      </p>
-      <h2>研究分野 / Research Areas</h2>
+      <p class="profile-meta profile-name-romanization">Kosuke Funayama</p>
+      <p class="profile-meta"><span data-i18n="profile.program">筑波技術大学大学院 技術科学研究科 産業技術学専攻 修士課程</span></p>
+      <p class="profile-meta"><span data-i18n="profile.role">筑波技術大学 リサーチ・アシスタント</span></p>
+      <h2><span data-i18n="heading.Profile">プロフィール</span></h2>
+      <p class="summary"> <span data-i18n="profile.summary">筑波技術大学大学院 技術科学研究科 産業技術学専攻 修士課程に在籍し、 知能情報学およびヒューマンインタフェース、インタラクションを基盤として、 ARグラスを活用したろう・難聴者向け字幕提示のパーソナライズに関する研究を行っています。 機械学習を応用した日本語指文字認識システムの開発や、 手話研究・教育支援のための動画データセット構築にも取り組み、 技術的基盤とユーザー体験の両面から、実社会で活用可能なアクセシビリティ技術の実現を目指しています。 現在は、研究成果を社会実装へと展開し、人に寄り添う情報提示システムの実証と運用を進めています。</span> </p>
+      <h2><span data-i18n="heading.ResearchAreas">研究分野</span></h2>
       <div class="meta-list">
-        <p class="meta-item">知能情報学</p>
-        <p class="meta-item">ヒューマンインタフェース・インタラクション</p>
+        <p class="meta-item"><span data-i18n="research.intelligent">知能情報学</span></p>
+        <p class="meta-item"><span data-i18n="research.hci">ヒューマンインタフェース・インタラクション</span></p>
       </div>
-      <h2>研究キーワード / Research Keywords</h2>
+      <h2><span data-i18n="heading.ResearchKeywords">研究キーワード</span></h2>
       <div class="keyword-list">
-        <span class="keyword-tag">アクセシビリティ</span>
-        <span class="keyword-tag">人工知能</span>
-        <span class="keyword-tag">拡張現実</span>
-        <span class="keyword-tag">支援技術</span>
+        <span class="keyword-tag"><span data-i18n="keyword.accessibility">アクセシビリティ</span></span>
+        <span class="keyword-tag"><span data-i18n="keyword.ai">人工知能</span></span>
+        <span class="keyword-tag"><span data-i18n="keyword.ar">拡張現実</span></span>
+        <span class="keyword-tag"><span data-i18n="keyword.assistive">支援技術</span></span>
       </div>
-      <h2>外部プロフィール / External Profiles</h2>
-      <p class="section-note">以下の外部リンクは新しいタブで開きます。</p>
+      <h2><span data-i18n="heading.ExternalProfiles">外部プロフィール</span></h2>
+      <p class="section-note"><span data-i18n="common.externalBelow">以下の外部リンクは新しいタブで開きます。</span></p>
       <div class="link-container">
         <a href="https://researchmap.jp/kofuna" target="_blank" rel="noopener noreferrer" class="custom-link">
           <div class="link-content">
             <div class="link-info">
               <h4>researchmap</h4>
-              <p>研究者プロフィール、業績一覧、外部公開用の研究情報</p>
+              <p><span data-i18n="profile.researchmap">研究者プロフィール、業績一覧、外部公開用の研究情報</span></p>
             </div>
           </div>
         </a>
@@ -108,33 +105,33 @@
           <div class="link-content">
             <div class="link-info">
               <h4>Shiraishi Lab</h4>
-              <p>所属研究室メンバーページ</p>
+              <p><span data-i18n="profile.lab">所属研究室メンバーページ</span></p>
             </div>
           </div>
         </a>
       </div>
-      <h2>ソーシャルリンク / Social Links</h2>
-      <p class="section-note">以下の外部リンクは新しいタブで開きます。</p>
+      <h2><span data-i18n="heading.SocialLinks">ソーシャルリンク</span></h2>
+      <p class="section-note"><span data-i18n="common.externalBelow">以下の外部リンクは新しいタブで開きます。</span></p>
       <div class="social-links">
         <a href="https://note.com/kisetu184/" target="_blank" rel="noopener noreferrer" class="icon-link">
           <img src="../image/note.svg" alt="Note" class="social-icon">
           <span class="icon-link-text">
             <span class="icon-link-title">note</span>
-            <span class="icon-link-note">新しいタブで開く ↗</span>
+            <span class="icon-link-note"><span data-i18n="common.newTab">新しいタブで開く ↗</span></span>
           </span>
         </a>
         <a href="https://github.com/KISETU-ggwp" target="_blank" rel="noopener noreferrer" class="icon-link">
           <img src="../image/github.svg" alt="GitHub" class="social-icon">
           <span class="icon-link-text">
             <span class="icon-link-title">GitHub</span>
-            <span class="icon-link-note">新しいタブで開く ↗</span>
+            <span class="icon-link-note"><span data-i18n="common.newTab">新しいタブで開く ↗</span></span>
           </span>
         </a>
         <a href="https://twitter.com/funasax" target="_blank" rel="noopener noreferrer" class="icon-link">
           <img src="../image/twitterx.svg" alt="Twitter" class="social-icon">
           <span class="icon-link-text">
             <span class="icon-link-title">X</span>
-            <span class="icon-link-note">新しいタブで開く ↗</span>
+            <span class="icon-link-note"><span data-i18n="common.newTab">新しいタブで開く ↗</span></span>
           </span>
         </a>
       </div>
@@ -144,6 +141,7 @@
   <!-- <footer>
     <p>&copy; 2024 Kosuke Funayama. All rights reserved.</p>
   </footer> -->
+  <script>window.portfolioI18n.init();</script>
   <script src="../js/script.js"></script>
 </body>
 
